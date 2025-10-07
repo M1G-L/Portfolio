@@ -2,7 +2,228 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+
+<section class="hero" id="home">
+    <div class="grid-pattern"></div>
+    <div class="stars" id="stars"></div>
+
+    <div class="hero-content">
+        <div class="badge fade-in">
+            <span class="badge-icon">💻</span>
+            <span>Desktop Developer</span>
+        </div>
+
+        <h1 class="fade-in">
+            Optimized Windows.<br>
+            Designed for enthusiasts.
+        </h1>
+
+        <p class="fade-in">
+            Olá! Sou o Miguel, desenvolvedor desktop especializado em criar ferramentas
+            poderosas para Windows. Focado em performance, usabilidade e controlo total do sistema.
+        </p>
+
+        <div class="cta-buttons fade-in">
+            <a href="#work" class="btn btn-primary">
+                Ver Projetos
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M9 6l6 6-6 6" />
+                </svg>
+            </a>
+            <a href="https://github.com/M1G-L" class="btn btn-secondary" target="_blank">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                </svg>
+                GitHub
+            </a>
+        </div>
+    </div>
+
+    <div class="glow glow-1"></div>
+    <div class="glow glow-2"></div>
+</section>
+
+<div class="divider"></div>
+
+<section class="section" id="about">
+    <div class="section-header">
+        <p class="section-label">Sobre Mim</p>
+        <h2 class="section-title">Quem sou eu</h2>
+    </div>
+
+    <div class="code-container">
+        <div class="code-block">
+            <code>
+                <span class="keyword">class</span> Developer<br>
+                {<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">string</span> Name = <span class="string">"Miguel"</span>;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">string</span>[] Skills = { <span class="string">"C"</span>, <span class="string">"C#"</span>, <span class="string">"WinForms"</span> };<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">string</span> CurrentlyLearning = <span class="string">"WPF"</span>;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">string</span> CurrentProject = <span class="string">"Windows post-install configuration tool"</span>;<br>
+                }
+            </code>
+        </div>
+    </div>
+
+    <div class="features-grid">
+        <div class="feature-card">
+            <div class="feature-icon">💻</div>
+            <h3>C, C# & WinForms</h3>
+            <p>Experiência sólida em desenvolvimento desktop com foco em aplicações Windows nativas.</p>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon">📚</div>
+            <h3>Learning WPF</h3>
+            <p>Atualmente a aprender WPF para criar interfaces modernas e responsivas.</p>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon">🔧</div>
+            <h3>System Configuration</h3>
+            <p>Desenvolvendo ferramentas para configuração pós-instalação de Windows.</p>
+        </div>
+    </div>
+</section>
+
+<div class="divider"></div>
+
+<section class="section" id="work">
+    <div class="section-header">
+        <p class="section-label">Featured Work</p>
+        <h2 class="section-title">Projeto Principal</h2>
+    </div>
+
+    <div class="project-showcase">
+        <h3>Nexor Optimizer</h3>
+        <p style="color: var(--text-muted); font-size: 1.2rem; margin-bottom: 1rem;">
+            Windows configuration tool built with C#
+        </p>
+        <p style="color: var(--text-muted); max-width: 700px; margin: 1rem auto; line-height: 1.8;">
+            Uma ferramenta abrangente para configuração pós-instalação de Windows,
+            projetada para otimizar o desempenho do sistema e proporcionar aos utilizadores
+            controlo total sobre a sua experiência Windows.
+        </p>
+        <div class="project-tags">
+            <span class="tag">System Tweaks</span>
+            <span class="tag">Post-Install Setup</span>
+            <span class="tag">Configuration Management</span>
+        </div>
+        <div style="margin-top: 2rem;">
+            <a href="https://github.com/M1G-L/Nexor-Optimizer" class="btn btn-primary" target="_blank">
+                Ver no GitHub
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M7 17L17 7M17 7H8M17 7v9" />
+                </svg>
+            </a>
+        </div>
+    </div>
+</section>
+
+<div class="divider"></div>
+
+<section class="section" id="skills">
+    <div class="section-header">
+        <p class="section-label">Technology Arsenal</p>
+        <h2 class="section-title">Stack Tecnológica</h2>
+    </div>
+
+    <div class="tech-grid">
+        <div class="tech-item">
+            <span>C</span>
+            <p style="color: var(--text); font-weight: 500;">C Language</p>
+        </div>
+        <div class="tech-item">
+            <span>C#</span>
+            <p style="color: var(--text); font-weight: 500;">C Sharp</p>
+        </div>
+        <div class="tech-item">
+            <span>.NET</span>
+            <p style="color: var(--text); font-weight: 500;">.NET Framework</p>
+        </div>
+        <div class="tech-item">
+            <span>📱</span>
+            <p style="color: var(--text); font-weight: 500;">WPF</p>
+        </div>
+        <div class="tech-item">
+            <span>🖥️</span>
+            <p style="color: var(--text); font-weight: 500;">WinForms</p>
+        </div>
+        <div class="tech-item">
+            <span>💻</span>
+            <p style="color: var(--text); font-weight: 500;">Visual Studio</p>
+        </div>
+        <div class="tech-item">
+            <span>🔧</span>
+            <p style="color: var(--text); font-weight: 500;">Git</p>
+        </div>
+        <div class="tech-item">
+            <span>🪟</span>
+            <p style="color: var(--text); font-weight: 500;">Windows</p>
+        </div>
+    </div>
+</section>
+
+<div class="divider"></div>
+
+
+
+<script>
+    // Header scroll effect
+    const header = document.getElementById('header');
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 50) {
+            header.classList.add('scrolled');
+        } else {
+            header.classList.remove('scrolled');
+        }
+    });
+
+    // Generate stars
+    const starsContainer = document.getElementById('stars');
+    for (let i = 0; i < 20; i++) {
+        const star = document.createElement('span');
+        star.className = 'star';
+        star.style.left = Math.random() * 100 + '%';
+        star.style.animationDelay = Math.random() * 15 + 's';
+        star.style.animationDuration = (Math.random() * 10 + 10) + 's';
+        starsContainer.appendChild(star);
+    }
+
+    // Smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target) {
+                target.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            }
+        });
+    });
+
+    // Intersection Observer for animations
+    const observerOptions = {
+        threshold: 0.1,
+        rootMargin: '0px 0px -100px 0px'
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.style.opacity = '0';
+                entry.target.style.transform = 'translateY(20px)';
+                setTimeout(() => {
+                    entry.target.style.transition = 'all 0.6s ease-out';
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }, 100);
+                observer.unobserve(entry.target);
+            }
+        });
+    }, observerOptions);
+
+    document.querySelectorAll('.feature-card, .tech-item, .project-showcase').forEach(el => {
+        observer.observe(el);
+    });
+</script>
